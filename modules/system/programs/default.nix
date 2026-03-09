@@ -23,6 +23,9 @@ in
   nixpkgs.config.allowUnfree = true;
 
   environment.systemPackages = with pkgs; [
+
+		microsoft-edge
+
     vivify
 
     figma-linux
